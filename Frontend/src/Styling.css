@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+@import "tailwindcss";
+
+
+:root {
+    --color-glitchgreen: #5CF22B;
+    --color-tahiti: #3ab7bf;
+    --color-bermuda: #78dcca;
+    --color-darkgreen: #307e17;
+    --color-darkblack: #050905;
+    --color-buttondarkgreen: #358C19;
+    --color-greyish: #171A17;
+}
+
+.text-glitchgreen {
+    color: var(--color-glitchgreen);
+  }
+  .bg-gradient-glitchgreen {
+    background-image: linear-gradient(to right, var(--color-glitchgreen), var(--color-buttondarkgreen));
+  }
+
+.bg-darkgreen{
+    background-color: var(--color-darkgreen)
+}
+.bg-greyish{
+    background-color: var(--color-greyish)
+}
+.bg-darkblack{
+    background-color: var(--color-darkblack)
+}
+.font-vt323 {
+    font-family: 'VT323', monospace;
+}
+body,p {
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+*{
+    overflow-x: hidden;
+}
