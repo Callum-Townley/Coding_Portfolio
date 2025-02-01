@@ -8,8 +8,8 @@ import Clogo from "../Assets/C logo.svg";
 function About_me() {
   return (
     <div>
-      <div className="bg-darkblack w-screen h-200vh flex flex-col ">
-        <div className="bg-darkblack w-screen h-20 flex justify-center">
+      <div className="bg-darkblack w-full h-200vh flex flex-col ">
+        <div className="bg-darkblack w-full h-20 flex justify-center">
           <h1 className="text-glitchgreen text-7xl -ml-12 font-vt323">
             About me
           </h1>
@@ -31,16 +31,16 @@ function About_me() {
               favourite games, running and playing with my pet snake medusa.
             </p>
           </div>
-          <img src={Clogo} className="h-100 w-500 "></img>
+          <img src={Clogo} className="h-100 w-full "></img>
         </div>
       </div>
-      <div className="bg-darkblack w-screen h-screen flex flex-col">
-        <div className="bg-darkblack w-screen h-screen flex justify-center">
+      <div className="bg-darkblack w-full h-screen flex flex-col">
+        <div className="bg-darkblack w-full h-screen flex justify-center">
           <h1 className="text-glitchgreen text-7xl -ml-12 font-vt323">
             Skills
           </h1>
         </div>
-        <div className="h-100 bg-darkblack -mt-110 w-screen flex flex-row items-center">
+        <div className="h-100 bg-darkblack -mt-110 w-full flex flex-row items-center">
           <ul className="flex flex-row ">
             <li>
               <div className=" bg-greyish h-60 w-60 m-3.5 rounded-2xl">

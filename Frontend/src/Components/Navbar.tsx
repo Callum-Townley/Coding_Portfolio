@@ -5,8 +5,8 @@ import Clogo from "../Assets/C logo.svg";
 function Navbar() {
   return (
     <div>
-      <nav className="bg-neutral-900 w-screen flex-row h-14">
-        <ul className="flex  items-center space-x-4 gap-21">
+      <nav className="bg-neutral-900 w-full flex-row h-14">
+        <ul className="flex  items-center  gap-21 w-full">
           <li>
             <a href="#home" className="text-glitchgreen font-vt323 text-4xl">
               Home
@@ -48,7 +48,7 @@ function Navbar() {
           </li>
         </ul>
       </nav>
-      <div className="w-screen h-6 bg-darkgreen"></div>
+      <div className="w-full h-6 bg-darkgreen"></div>
     </div>
   );
 }

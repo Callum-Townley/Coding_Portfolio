@@ -5,12 +5,13 @@
 
 :root {
     --color-glitchgreen: #5CF22B;
-    --color-tahiti: #3ab7bf;
-    --color-bermuda: #78dcca;
     --color-darkgreen: #307e17;
     --color-darkblack: #050905;
     --color-buttondarkgreen: #358C19;
     --color-greyish: #171A17;
+}
+.ring-glitchgreen {
+    --tw-ring-color: var(--color-glitchgreen)
 }
 
 .text-glitchgreen {
@@ -36,6 +37,3 @@ body,p {
     font-family: 'JetBrains Mono', monospace;
   }
 
-*{
-    overflow-x: hidden;
-}

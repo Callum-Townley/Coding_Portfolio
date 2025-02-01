@@ -5,29 +5,25 @@ import Navbar from "./Components/Navbar";
 import About_me from "./Pages/About_me";
 import Projects from "./Pages/Projects";
 import Creativecoding from "./Pages/Creativecoding";
-import Blog from "./Pages/Blog";
 import Contact from "./Pages/Contact";
 function App() {
   return (
     <div>
       <link href="./Styling.css" rel="stylesheet" />
       <Navbar />
-      <div id="home">
+      <div id="home" className="overflow-x-visible ">
         <Homepage />
       </div>
-      <div id="about">
+      <div id="about" className="overflow-x-visible ">
         <About_me />
       </div>
-      <div id="projects">
+      <div id="projects" className="overflow-x-visible ">
         <Projects />
       </div>
-      <div id="creative-coding">
+      <div id="creative-coding" className="overflow-x-visible ">
         <Creativecoding />
       </div>
-      <div id="blog">
-        <Blog />
-      </div>
-      <div id="contact">
+      <div id="contact" className="overflow-x-visible ">
         <Contact />
       </div>
     </div>
